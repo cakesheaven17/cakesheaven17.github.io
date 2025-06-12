@@ -1,4 +1,3 @@
-
 /* Global Styles */
 * {
     margin: 0;
@@ -46,6 +45,14 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    line-height: 30px;
+}
+
+.logo p {
+    font-size: 9px;
+    line-height: 9px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .logo span {
@@ -229,6 +236,18 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
+/* Gallery Section */
+.galry-list a {
+    margin-bottom: 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    color: #d14d72;
+}
+
 /* Footer */
 footer {
     background-color: #d14d72;
@@ -248,6 +267,14 @@ footer {
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 10px;
+}
+
+.footer-column h3 span {
+    font-size: 7px;
+    line-height: 7px;
+    letter-spacing: .5px;
+    font-weight: 300;
+    display: block;
 }
 
 .footer-column h3::after {
