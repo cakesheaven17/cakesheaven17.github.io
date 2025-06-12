@@ -329,21 +329,31 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+nav ul li a{font-size: 14px;}
     .header-content {
         flex-direction: column;
     }
 
     .logo {
-        margin-bottom: 15px;
+        margin-bottom: 1px;
     }
-
+.container h2 {
+  font-size: 170%;
+}
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0;
+        margin: 0;
     }
 
     nav ul li {
-        margin: 0 10px 10px;
+        margin: 0 5px 0px;
     }
 
     .hero h1 {
@@ -356,5 +366,15 @@ footer {
 
     .about-img {
         order: -1;
+    }
+
+    .footer-column ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        display: flex;
     }
 }
