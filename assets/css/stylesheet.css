@@ -101,7 +101,7 @@ nav ul li a {
 }
 nav ul li.active a,
 nav ul li a:hover {
-    color: #ffabab;
+    color: #770d0d;
 }
 
 /* Hero Section */
@@ -274,27 +274,27 @@ nav ul li a:hover {
 }
 
 /* Footer */
-footer {
+.contact {
     background-color: #d14d72;
     color: white;
     padding: 50px 0 20px;
 }
 
-.footer-content {
+.contact-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
 }
 
-.footer-column h3 {
+.contact-column h3 {
     font-size: 20px;
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 10px;
 }
 
-.footer-column h3 span {
+.contact-column h3 span {
     font-size: 7px;
     line-height: 7px;
     letter-spacing: .5px;
@@ -302,7 +302,7 @@ footer {
     display: block;
 }
 
-.footer-column h3::after {
+.contact-column h3::after {
     content: '';
     position: absolute;
     left: 0;
@@ -312,22 +312,22 @@ footer {
     background-color: #ffabab;
 }
 
-.footer-column ul {
+.contact-column ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-column ul li {
+.contact-column ul li {
     margin-bottom: 10px;
 }
 
-.footer-column ul li a {
+.contact-column ul li a {
     color: #ffd6e7;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.footer-column ul li a:hover {
+.contact-column ul li a:hover {
     color: white;
 }
 p.footp{
@@ -408,12 +408,12 @@ p.footp{
         order: -1;
     }
 
-    .footer-column ul {
+    .contact-column ul {
         padding-left: 0;
         margin-left: 0;
     }
 
-    .footer-content {
+    .contact-content {
         flex-direction: column;
         display: flex;
     }
